@@ -3,9 +3,9 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <View
-      styles={styles.container}
+      style={styles.container}
     >
-      <Text style={style.text}>Edit app/index.tsx to edit this screen.</Text>
+      <Text style={styles.text}>Edit app/index.tsx to edit this screen.</Text>
     </View>
   );
 }
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#021123',
   },
 
-  test: {
+  text: {
     color: '#FFF',
   }
 
